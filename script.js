@@ -100,17 +100,6 @@ const decisionTree = {
     "Je mets en place un SAE": {
       question: "Quel est votre besoin principal ?",
       answers: {
-        "Définir la politique d'archivage électronique": {
-          result: "Le document qu'il vous faut est la politique d'archivage électronique."
-        },
-        "Accompagner la mise en œuvre du SAE": {
-          result: "Le document qu'il vous faut est le plan de mise en œuvre du SAE."
-        }
-      }
-    },
-    "Je mets en place un SAE": {
-      question: "Quel est votre besoin principal ?",
-      answers: {
         "Conformité interne": {
           question: "Quel est votre besoin spécifique ?",
           answers: {
