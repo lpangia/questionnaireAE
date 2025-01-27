@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire interactif</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+  <!-- Page d'accueil -->
+  <div id="main-container">
+    <h1>Bienvenue sur cette première version de l'outil !</h1>
+    <p>
+      Ce questionnaire vous guide à travers un arbre décisionnel pour trouver le document le plus adapté à votre situation. 
+      Cliquez sur "Commencer" pour répondre aux questions et obtenir votre résultat !
+    </p>
+    <button class="btn" onclick="startQuestionnaire()">Commencer</button>
+  </div>
+  
+  <!-- Conteneur des questions -->
+  <div id="question-container" style="display: none;"></div>
+  
+  <script src="script.js"></script> <!-- Lien vers le fichier JavaScript -->
+</body>
+</html>
